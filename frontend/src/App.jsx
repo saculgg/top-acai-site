@@ -32,7 +32,7 @@ function App() {
 
   const fetchMenu = async () => {
     try {
-      const response = await fetch('http://localhost:3000/api/menu');
+      const response = await fetch('https://top-acai-backend.onrender.com');
       const data = await response.json();
       setMenuData(data);
     } catch (error) {
