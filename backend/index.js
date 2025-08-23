@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 3000;
 
 // Middleware
 app.use(cors({
-  origin: '*', // Frontend URL
+  origin: 'https://top-acai-site.vercel.app/', // Frontend URL
   credentials: true
 }));
 app.use(express.json());
