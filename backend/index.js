@@ -18,7 +18,7 @@ app.use(express.json());
 const menuData = {
   "store_name": "TOP Açai & Delicias",
   "contact": {
-    "wa_phone": "5543996813103"
+    "wa_phone": "554399384927"
   },
   "Gelados": {
     "Açai": {
