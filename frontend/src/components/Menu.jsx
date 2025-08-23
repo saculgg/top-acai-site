@@ -110,7 +110,7 @@ const Menu = ({
     
     // Para outras categorias, mostrar subcategorias diretamente
     const subcategories = Object.keys(categoryData).filter(key => 
-      !['extra_options'].includes(key)
+      !['extra_options','Churros_Addons_Paid','Churros_Addons_Free'].includes(key)
     );
     
     return (
