@@ -85,7 +85,7 @@ const CheckoutModal = ({ cart, menuData, onClose, onSuccess }) => {
         total
       };
 
-      const response = await fetch(/'https://top-acai-backend.onrender.com/api/orders/', {
+      const response = await fetch('https://top-acai-backend.onrender.com/api/menu') {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
